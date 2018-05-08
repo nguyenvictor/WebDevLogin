@@ -54,15 +54,13 @@
          <h2>Login</h2>
       </div>
       <div class = "row justify-content-center align-middle">
-         <form>
-           <div class="form-group">
-             <label for="Username">Username: </label>
-             <input type="text" class="form-control-sm mx-auto" id="username" placeholder="Username">
-           </div>
-           <div class="form-group">
-             <label for="Password">Password: </label>
-             <input type="text" class="form-control-sm mx-auto" id="password" placeholder="Password">
-           </div>
+
+               <form action = "" method = "post">
+                  <label>UserName  :</label><br /><input type = "text" name = "username" class = "box"/><br /><br />
+                  <label>Password  :</label><br /><input type = "password" name = "password" class = "box" /><br /><br />
+                  <input type = "submit" value = " Submit "/><br />
+               </form>
+
          </form>
          </div>
          <div class = "row error-message">

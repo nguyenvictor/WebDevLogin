@@ -55,3 +55,21 @@ h1, h2, h3, h4, h5, h6{
 {
 	color:red;
 }
+
+.container {
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
